@@ -1,0 +1,243 @@
+
+.carousel {
+	padding-top: 0px;
+	width: 100%;
+}
+
+.featured {
+	width: 80%;
+	margin: 50px 10% 0px 10%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+}
+
+.background {
+	position: absolute;
+	width: 100%;
+	height: 90vh;
+	position: absolute;
+	z-index: -1;
+	opacity: 0.3;
+}
+
+.left {
+	width: 30%;
+	text-align: center;
+	display: inline-block;
+}
+
+.right {
+	margin-top: 20px;
+	width: 68%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.container {
+	display: inline-block;
+	background-color: #8C9D96;
+	border-radius: 0 10px 10px 0;  
+	border: 6px solid #554F95;	
+	border-left: none;
+}
+
+.poster {
+	width: 100%;
+	position: relative;
+	top: -75px;
+}
+
+.rating {
+	width: 80px;
+	height: 76px;	
+	text-align: center;
+	position: relative;
+	top: -25px;
+	left: -40px;
+	background-color: #554F95;	
+	border-radius: 6px;
+	z-index: 999;
+}
+
+.rating p {
+	font-size: 12px;
+	padding: 0;
+	margin: 0;	
+}
+
+.rating .star {
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+}
+
+.rating .strong {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.info {
+	width: 90%;
+	height: auto;
+	color: #434343;
+	padding-left: 15px;
+}
+
+.title {
+	-webkit-transform: scaleY(1.8);
+	transform:scaleY(1.8);	
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-left: 15px;
+	text-decoration: underline;
+	color: #181818;
+}
+
+.description {
+	color: #434343;
+	padding-left: 15px;
+}
+
+.options {
+	padding-top: 20px;
+}
+
+.trailer {
+	text-align: center;
+	width: auto;
+	padding: 20px;
+	margin-left: 30%;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.ticket {
+	text-align: center;
+	width: auto;
+	padding: 20px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.txt {
+	font-size: 20px;
+	margin: 2px;
+}
+
+.arrowLeft {
+	position: absolute;
+	left: 2%;
+	top: 50%;
+	cursor: pointer;
+}
+
+.arrowRight {
+	position: absolute;
+	right: 2%;
+	top: 50%;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 767px) { 
+
+	.left {
+		width: 80%;
+		margin: 0 10% 0 10%;
+		padding: 0;
+		display: block;
+	}
+
+	.right {
+		width: 80%;
+		margin: -50px 10% 0 10%;
+		display: block;
+	}
+
+	.container {
+		width: 100%;
+		display: inline-block;
+		background-color: transparent;
+		border: none;
+		margin: 0;
+	}
+
+	.title {
+		color: #ffffff;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		font-size: 1.3em;
+		font-weight: normal;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	.description {
+		display: none;
+	}
+
+	.options {
+		text-align: center;
+	}
+
+	.trailer {
+		padding: 6px;
+		margin-left: 2%;
+	}
+
+	.ticket {
+		padding: 6px;
+	}
+
+	.rating {
+		top: -25px;
+		left: -25px;
+	}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) { 
+
+	.left {
+		width: 50%;
+	}
+
+	.right {
+		width: 48%;
+	}
+
+	.title {
+		font-size: 1em;
+	}
+
+	.trailer {
+		padding: 6px;
+		margin-left: 5%;
+	}
+
+	.ticket {
+		padding: 6px;
+	}
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) { 
+
+	.left {
+		width: 40%;
+	}
+
+	.right {
+		width: 58%;
+	}
+
+	.title {
+		font-size: 1.2em;
+	}
+
+	.trailer {
+		margin-left: 20%;
+	}
+
+}
